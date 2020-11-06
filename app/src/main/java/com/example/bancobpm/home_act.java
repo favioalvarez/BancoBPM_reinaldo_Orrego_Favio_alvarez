@@ -61,6 +61,7 @@ public class home_act extends AppCompatActivity {
         clientes.add("Axel");
         clientes.add("Roxana");
 
+
         credito.add("ELIGE UNA OPCION");
         credito.add("Credito Hipotecario");
         credito.add("Credito Automotriz");
