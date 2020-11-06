@@ -7,7 +7,7 @@
     tools:context=".info_act">
 
     <VideoView
-        android:id="@+id/videoView"
+        android:id="@+id/v_v"
         android:layout_width="406dp"
         android:layout_height="317dp"
         android:layout_marginStart="5dp"
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.309"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/videoView"
+        app:layout_constraintTop_toBottomOf="@+id/v_v"
         app:layout_constraintVertical_bias="0.243">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -49,16 +49,15 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/imageButton6"
-                android:layout_width="133dp"
+                android:id="@+id/ibtn"
+                android:layout_width="192dp"
                 android:layout_height="93dp"
-                android:layout_marginBottom="40dp"
                 android:background="@android:color/transparent"
+                android:onClick="Mapa"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2"
-                app:layout_constraintVertical_bias="0.0"
                 app:srcCompat="@drawable/location" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

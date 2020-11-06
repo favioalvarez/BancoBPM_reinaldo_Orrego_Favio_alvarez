@@ -41,6 +41,7 @@
                 android:id="@+id/imageButton14"
                 android:layout_width="191dp"
                 android:layout_height="match_parent"
+                android:onClick="Calculo"
                 app:srcCompat="@drawable/dinero_men" />
         </TableRow>
 
@@ -69,6 +70,7 @@
                 android:id="@+id/imageButton15"
                 android:layout_width="197dp"
                 android:layout_height="match_parent"
+                android:onClick="Seguridad"
                 app:srcCompat="@drawable/secure_men" />
 
             <ImageButton
